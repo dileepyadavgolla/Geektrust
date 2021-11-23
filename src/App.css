@@ -36,3 +36,161 @@
     transform: rotate(360deg);
   }
 }
+
+.topCon {
+  display: flex;
+  align-items: center;
+}
+.appContainer {
+  height: 100vh;
+}
+.input {
+  width: 90vw;
+  margin-left: 40px;
+  margin-right: 20px;
+  margin-top: 30px;
+}
+.head {
+  font-size: 25px;
+}
+
+.unordered {
+  padding-left: 0;
+}
+.button {
+  background-color: palevioletred;
+  border-radius: 10px;
+  color: white;
+  border-width: 0px;
+  padding: 5px;
+  margin-left: 20px;
+  margin-right: 15px;
+}
+.icons {
+  font-size: 15px;
+}
+
+.line {
+  margin: 10px;
+}
+
+.buttonIcon {
+  padding: 5px;
+  border-radius: 16px;
+  border-width: 0px;
+  margin-right: 10px;
+}
+
+@media screen and (max-width: 560px) {
+  .input {
+    width: 170px;
+    margin-left: 25px;
+    margin-right: 20px;
+    margin-top: 30px;
+  }
+
+  .head {
+    font-size: 13px;
+    width: 100px;
+    margin-left: 0px;
+    margin-right: 0;
+  }
+  .check {
+    margin-left: 25px;
+    margin-right: 20px;
+  }
+  .line {
+    width: 90vw;
+  }
+}
+
+@media screen and (min-width: 902px) {
+  .input {
+    width: 550px;
+    margin-left: 20px;
+    margin-right: 40px;
+    margin-top: 30px;
+  }
+  .head {
+    font-size: 20px;
+    width: 200px;
+  }
+  .check {
+    margin-left: 25px;
+    margin-right: 20px;
+  }
+  .unordered {
+    padding-left: 0;
+  }
+  .button {
+    background-color: palevioletred;
+    border-radius: 10px;
+    color: white;
+    border-width: 0px;
+    padding: 5px;
+    margin-right: 15px;
+    height: 35px;
+    width: 100px;
+  }
+  .icons {
+    font-size: 15px;
+  }
+
+  .line {
+    margin: 10px;
+  }
+}
+
+.pageList {
+  display: flex;
+}
+
+.pageItem {
+  list-style-type: none;
+  border: solid 2px pink;
+  border-radius: 10px;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+.con {
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (min-width: 561px) and (max-width: 902px) {
+  .input {
+    width: 550px;
+    margin-left: 20px;
+    margin-right: 40px;
+    margin-top: 30px;
+  }
+  .head {
+    font-size: 20px;
+    width: 130px;
+  }
+
+  .button {
+    background-color: palevioletred;
+    border-radius: 10px;
+    color: white;
+    border-width: 0px;
+    padding: 5px;
+    margin-right: 15px;
+    height: 35px;
+    width: 100px;
+  }
+
+  .check {
+    margin-left: 25px;
+    margin-right: 20px;
+  }
+}
+
+.res {
+  background-color: aqua;
+  border-radius: 10px;
+  padding: 10px;
+  margin-right: 10px;
+  list-style-type: none;
+}
